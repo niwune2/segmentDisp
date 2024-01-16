@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Fourteen-Segment-Clock</h1>
+    <div class="clock-container">
+        <div class="time">
+            <div class="clock-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+            <div class="clock-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+            <div class="clock-space">
+                <div class="d1 lamp activeTime"></div>
+                <div class="d2 lamp activeTime"></div>
+            </div>
+            <div class="clock-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+            <div class="clock-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+            <div class="clock-space">
+                <div class="d1 lamp activeTime"></div>
+                <div class="d2 lamp activeTime"></div>
+            </div>
+            <div class="clock-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+            <div class="clock-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+        </div>
+
+        <div class="date">
+            <div class="date-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+            <div class="date-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+            <div class="date-space">
+                <div class="sl lamp activeDate"></div>
+            </div>
+            <div class="date-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+            <div class="date-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+            <div class="date-space">
+                <div class="sl lamp activeDate"></div>
+            </div>
+            <div class="date-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+            <div class="date-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+        </div>
+
+        <div class="week">
+            <div class="week-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+            <div class="week-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+            <div class="week-item">
+                <span class="seg a"></span>
+                <span class="seg b"></span>
+                <span class="seg c"></span>
+                <span class="seg d"></span>
+                <span class="seg e"></span>
+                <span class="seg f"></span>
+                <span class="seg g1 half"></span>
+                <span class="seg g2 half"></span>
+                <span class="seg h"></span>
+                <span class="seg i"></span>
+                <span class="seg j"></span>
+                <span class="seg k"></span>
+                <span class="seg l"></span>
+                <span class="seg m"></span>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://en.wikipedia.org/wiki/Fourteen-segment_display">Fourteen-segment display</a>
+    <br>
+    <a href="https://7seg.fandom.com/wiki/14-segment_display">14-segment display(Segment Displays Wiki)</a>
+</body>
+
+</html>
